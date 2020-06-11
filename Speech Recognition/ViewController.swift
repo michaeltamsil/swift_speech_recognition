@@ -117,6 +117,8 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
                 self.view_color.backgroundColor = .systemPink
             } else if lastString.elementsEqual("blue") {
                 self.view_color.backgroundColor = .systemBlue
+            } else if lastString.elementsEqual("black") {
+                self.view_color.backgroundColor = .black
             }
             
         })
